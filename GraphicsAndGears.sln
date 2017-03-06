@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicsAndGears", "GraphicsAndGears\GraphicsAndGears.csproj", "{472DEDB1-83B6-48D7-A78A-D3B65EAF0791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicsAndGears.Tests", "GraphicsAndGears.Tests\GraphicsAndGears.Tests.csproj", "{26C3328C-1E6A-47B4-B41E-6145DC91EA10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{472DEDB1-83B6-48D7-A78A-D3B65EAF0791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{472DEDB1-83B6-48D7-A78A-D3B65EAF0791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{472DEDB1-83B6-48D7-A78A-D3B65EAF0791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{472DEDB1-83B6-48D7-A78A-D3B65EAF0791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26C3328C-1E6A-47B4-B41E-6145DC91EA10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C3328C-1E6A-47B4-B41E-6145DC91EA10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C3328C-1E6A-47B4-B41E-6145DC91EA10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C3328C-1E6A-47B4-B41E-6145DC91EA10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
