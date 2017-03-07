@@ -6,10 +6,16 @@ using System.Web.Mvc;
 
 namespace GraphicsAndGears.Controllers
 {
-    public class GraphicsController : Controller
+    public class GearsController : Controller
     {
-        // GET: Graphics
+        // GET: Gears
         public ActionResult Index()
+        {
+            return View();
+        }
+
+        // GET: Gears/Details/5
+        public ActionResult Details(int id)
         {
             return View();
         }
@@ -18,19 +24,13 @@ namespace GraphicsAndGears.Controllers
         {
             return View();
         }
-        // GET: Graphics/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
-
-        // GET: Graphics/Create
+        // GET: Gears/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Graphics/Create
+        // POST: Gears/Create
         [HttpPost]
         public ActionResult Create(FormCollection collection)
         {
@@ -46,13 +46,13 @@ namespace GraphicsAndGears.Controllers
             }
         }
 
-        // GET: Graphics/Edit/5
+        // GET: Gears/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: Graphics/Edit/5
+        // POST: Gears/Edit/5
         [HttpPost]
         public ActionResult Edit(int id, FormCollection collection)
         {
@@ -68,13 +68,13 @@ namespace GraphicsAndGears.Controllers
             }
         }
 
-        // GET: Graphics/Delete/5
+        // GET: Gears/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: Graphics/Delete/5
+        // POST: Gears/Delete/5
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
         {
