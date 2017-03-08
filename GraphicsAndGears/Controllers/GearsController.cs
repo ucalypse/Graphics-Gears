@@ -29,6 +29,10 @@ namespace GraphicsAndGears.Controllers
         {
             return View();
         }
+        public ActionResult PartsRequest()
+        {
+            return View();
+        }
 
         // POST: Gears/Create
         [HttpPost]
