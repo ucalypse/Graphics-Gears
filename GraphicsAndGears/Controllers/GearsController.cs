@@ -8,6 +8,8 @@ namespace GraphicsAndGears.Controllers
 {
     public class GearsController : Controller
     {
+        Car car = new Car();
+        Customer customer = new Customer();
         // GET: Gears
         public ActionResult Index()
         {
@@ -50,6 +52,17 @@ namespace GraphicsAndGears.Controllers
             }
         }
 
+        [HttpPost]
+        public ActionResult SendEmail(string nameField, string makeField, string modelField, string yearField, string phoneField, string emailField)
+        {
+            car.Make = makeField;
+            car.Model = modelField;
+            car.Year = Int32.Parse(yearField);
+            customer.Name = nameField;
+            customer.Email = emailField;
+            customer.Phone = phoneField;
+            throw new Exception("Method not impletmented");
+        }
         // GET: Gears/Edit/5
         public ActionResult Edit(int id)
         {
