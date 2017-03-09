@@ -55,6 +55,7 @@ namespace GraphicsAndGears.Controllers
         [HttpPost]
         public ActionResult SendEmail(string nameField, string makeField, string modelField, string yearField, string phoneField, string emailField)
         {
+            //make crazy change
             car.Make = makeField;
             car.Model = modelField;
             car.Year = Int32.Parse(yearField);
