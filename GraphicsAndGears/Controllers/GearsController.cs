@@ -30,6 +30,10 @@ namespace GraphicsAndGears.Controllers
         {
             return View();
         }
+        public ActionResult Success()
+        {
+            return View();
+        }
         public ActionResult PartsRequest()
         {
             return View();
@@ -77,6 +81,7 @@ namespace GraphicsAndGears.Controllers
             System.Net.Mail.SmtpClient client = new System.Net.Mail.SmtpClient();
             
             client.Send(message);
+            return RedirectToAction("Success", "Gears");
             throw new Exception("Method not implemented");
         }
         // GET: Gears/Edit/5
