@@ -81,8 +81,8 @@ namespace GraphicsAndGears.Controllers
             System.Net.Mail.SmtpClient client = new System.Net.Mail.SmtpClient();
             
             client.Send(message);
-            return RedirectToAction("Success", "Gears");
-            throw new Exception("Method not implemented");
+            return RedirectToAction("Success");
+          //  throw new Exception("Method not implemented");
         }
         // GET: Gears/Edit/5
         public ActionResult Edit(int id)
