@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Graphics & Gears</h1>
+    <p class="lead">Graphics & Gears is a Cleveland based company specializing in meeting customer needs. Please choose a gateway</p>
+</div>
+
+<div class="row">
+    <div class="col-md-6" id="homenav" align="center">
+        <h1>Gears</h1>
+        <a href='@Url.Action("Home","Gears")'><img src="~/Content/Images/gearsLogo.jpg" /></a>
+    </div>
+    <div class="col-md-6" align="center">
+        <h1>Graphics</h1>
+        <a href='@Url.Action("Home","Graphics")'><img src="~/Content/Images/graphicsLogo.jpg"</a>
+</div>
+</div>
